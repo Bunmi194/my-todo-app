@@ -1,0 +1,105 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.title, .inputField{
+    margin-top: 100px;
+    text-align: center;
+    color: blue;
+}
+#head{
+    font-size: 40px;
+    font-weight: 900;
+}
+.left{
+    padding-top: 5px;
+}
+.inputField{
+    width: 100%;
+    margin-top: 0px;
+    height: 10%;
+    /* display: flex; */
+    margin: 40px auto;
+    /* justify-content: space-around; */
+}
+#inputElement{
+    width: 40%;
+    height: 30px;
+}
+.btnAdd{
+    height: 40px;
+    color: #fff;
+    background-color: blue;
+}
+button{
+    background-color: blue;
+    height: 38px;
+    color: #fff;
+    border: 1px solid yellow;
+}
+.blue{
+    background-color: black;
+    color: blue;
+    text-align: right;
+}
+.red{
+    background-color: black;
+    color: red;
+    text-align: right;
+}
+.itemHeader{
+    text-align: left;
+    margin: 0px auto;
+    font-size: 24px;
+}
+.itemEach{
+    border: 1px solid blue;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: left;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.fa-solid, .fa-regular{
+    margin: 30px 10px;
+}
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+#search{
+    height: 40px;
+    width: 60%;
+    border-radius: 30px;
+    border: 0px solid #fff;
+    margin: 15px 20px;
+}
+#search:focus-within{
+    border: 0px solid #fff;
+}
+#searchDiv{
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 30px;
+    display: flex;
+}
+.button:hover{
+    cursor: pointer;
+}
+.footer{
+    margin-top: 350px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+hr{
+    width: 80%;
+}
+
